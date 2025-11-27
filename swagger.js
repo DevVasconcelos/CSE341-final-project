@@ -2,10 +2,10 @@ const swaggerAutogen = require("swagger-autogen")();
 
 // Determine host and scheme based on environment
 const isProduction = process.env.NODE_ENV === 'production';
-const host = isProduction ? 'cse-project-2.onrender.com' : 'localhost:3000';
+const host = isProduction ? 'cse341-final-project-e1gc.onrender.com' : 'localhost:3000';
 const schemes = isProduction ? ['https'] : ['http'];
 const authUrl = isProduction 
-  ? 'https://cse-project-2.onrender.com/auth/google' 
+  ? 'https://cse341-final-project-e1gc.onrender.com/auth/google' 
   : 'http://localhost:3000/auth/google';
 
 const doc = {

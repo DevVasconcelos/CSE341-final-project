@@ -20,7 +20,7 @@ app.set("trust proxy", 1);
 const corsOptions = {
   origin:
     process.env.NODE_ENV === "production"
-      ? [process.env.APP_URL, "https://cse-project-2.onrender.com"]
+      ? [process.env.APP_URL, "https://cse341-final-project-e1gc.onrender.com"]
       : "*",
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
